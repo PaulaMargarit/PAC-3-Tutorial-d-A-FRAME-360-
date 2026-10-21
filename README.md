@@ -13,7 +13,7 @@ Escena de realitat virtual que representa un túnel futurista amb llums de neó,
 
 ## Accés al projecte
 Les dues escenes es poden explorar des de la pàgina inicial, que incorpora portals per accedir a cadascuna.
-Enllaç:https://paulamargarit.github.io/PAC_3_Tutorial_A-FRAME360/
+Enllaç: https://paulamargarit.github.io/PAC_3_Tutorial_A-FRAME360/
 
 ## Tecnologies utilitzades
 - HTML
