@@ -40,6 +40,8 @@ Enllaç:https://paulamargarit.github.io/PAC_3_Tutorial_A-FRAME360/
 - wirestock. (n.d). “Fotografía vertical de una corteza de pino cubierta de musgo”. https://www.magnific.com/es/foto-gratis/fotografia-vertical-corteza-pino-cubierta-musgo_11342285.htm#fromView=search&page=1&position=0&uuid=3404edbc-a19b-4ba4-ac97-b061a3f5ded6&track=ais_hybrid&query=textura+bosque
 - alejo_m. (n.d). “Camiseta de carreras de sublimación abstracta morada y naranja MX PSD”. https://www.magnific.com/es/psd-gratis/camiseta-carreras-sublimacion-abstracta-morada-naranja-mx-psd_426412167.htm#fromView=keyword&page=1&position=2&uuid=6a6c80ed-9a0b-4af6-9a70-8e496e48d3cf&track=ais_hybrid&query=Abstraccion
 
+Totes les textures utilitzades provenen de Magnific i s'ofereixen com a recursos gratuïts amb atribució obligatòria. Per aquest motiu, s'indiquen els noms dels recursos, els autors i els enllaços a les pàgines originals.
+
 ### Recursos de creació pròpia
 Imatge panoràmica de 360º del bosc, creada amb Blender.
 Vídeo panoràmic de 360º del túnel futurista, creat amb Blender.
