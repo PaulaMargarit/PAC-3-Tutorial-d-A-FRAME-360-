@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Videosphere</title>
+    <meta name="description" content="Videosphere">
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene >
+      <a-assets>
+        <img id="neon" src="neon.jpg">
+        <img id="neon2" src="neon2.jpg">
+        <img id="index" src="index.jpg">
+        <video id="videotunel" src="video.mp4" autoplay muted loop playsinline></video>
+      </a-assets>
+
+      <a-videosphere src="#videotunel"></a-videosphere>
+      
+      <a-cone position="-8 1 -2" rotation="0 0 270" scale="2 2 2" material="src:#neon; transparent: true; opacity: 1">
+        <a-animation attribute="position" direction="alternate" dur="4000" repeat="indefinite" to="9 1 -3"></a-animation>
+        <a-animation attribute="material.opacity" begin="mouseenter" dur="500" to="0.2"></a-animation>
+        <a-animation attribute="material.opacity" begin="mouseleave" dur="500" to="1"></a-animation>
+      </a-cone>   
+  
+      <a-camera rotation="0 90 0">
+        <a-cursor color="#ff66ff"></a-cursor>
+      </a-camera>
+
+      <a-link href="../index.html" title="Index" image="#index" peekMode="false" position="-6 2 4" rotation="0 -50 0"></a-link>
+    </a-scene>
+
+    <script>
+      const video = document.querySelector('#videotunel');
+      video.play().catch(() => {});
+      document.addEventListener('click', function () {
+        if (video.paused){
+          video.play();
+        }
+      })
+    </script>
+  </body>
+</html>

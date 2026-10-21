@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sky</title>
+    <meta name="description" content="Sky">
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene >
+      <a-assets>
+        <img id="textura" src="textura.jpg">
+        <img id="bosc" src="bosc.png">
+        <img id="index" src="index.jpg">
+      </a-assets>
+
+      <a-sky id="image-360" radius="10" src="#bosc"></a-sky>
+      
+      <a-octahedron position="-8 3 -2" scale="1 2 1" src="#textura">
+        <a-animation attribute="rotation" dur="3500" repeat="indefinite" to="0 360 0"></a-animation>
+        <a-animation attribute="scale" direction="alternate" begin="mouseenter" dur="550" to="2 3 3"></a-animation>
+      </a-octahedron>    
+
+      <a-camera rotation="0 90 0">
+        <a-cursor color="#FF66FF"></a-cursor>
+      </a-camera>
+
+      <a-link href="../index.html" title="Index" image="#index" peekMode="false" position="-3 2 4" rotation="0 -50 0"></a-link>
+</a-link>
+    </a-scene>
+  </body>
+</html>
