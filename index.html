@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>índex</title>
+    <meta name="description" content="A-Frame Cursor">
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene environment="preset: dream">
+      <a-assets>
+        <img id="boxTexture1" src="recursos/escena1.jpg">
+        <img id="boxTexture2" src="recursos/escena2.jpg">
+      </a-assets>
+
+      <a-text value="Benvingut!" color="#FF692A" position="-0.5 0.2 -3" scale="1 1 1"></a-text>
+
+      <a-camera>
+        <a-cursor color="#66ffff"></a-cursor>
+      </a-camera>
+      
+      <a-link href="recursos/sky.html" title="Sky" image="#boxTexture1" peekMode="false" position="-1.2 2 -3"></a-link>
+      <a-link href="recursos/videosphere.html" title="Videosphere" image="#boxTexture2" peekMode="false" position="1.2 2 -3"></a-link>    
+
+    </a-scene>
+  </body>
+</html>
